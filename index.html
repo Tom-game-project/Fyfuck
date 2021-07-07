@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/jpg" href="icon.jpg">
+    <title>PyFuck</title>
+</head>
+<body>
+    <nav class="title">
+        <a href="about.html"><img src="main.jpg" alt="PYFUCK IMAGE" width="100px" height="100px"></a>
+    </nav>
+    <div class="content">
+
+        <div class="input">
+            <h1>input</h1>
+            <textarea name="input" id="input" cols="30" rows="10">print("hello world")</textarea></p>
+        </div>
+        <div class="output">
+            <div class="operation">
+                <h1>output</h1>
+                <div class="ope">
+                    <select name="コンパイル形式" size="1" id="select">
+                        <option value="bin">bin</option>
+                        <option value="decimal">decimal</option>
+                    </select>
+                    <input type="button" onclick="copy();" value="copy!">
+                </div>
+            </div>
+            <textarea name="output" id="output" cols="30" rows="10" readonly></textarea></p>
+        </div>
+    </div>
+    <div class="wrap">
+        <footer><small>&copy;Tom0427.2021.</small></footer>
+    </div>
+    <script src="main.js"></script>
+    <script src="copy.js"></script>
+</body>
+</html>
