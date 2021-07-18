@@ -79,4 +79,4 @@ class Pyfuck{
     }
 }
 const p = new Pyfuck();
-setInterval(()=>p.print_out,100);
+setInterval(()=>p.print_out(),100);
